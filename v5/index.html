@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dubai Islamic Bank Pakistan | Islamic Banking for Every Stage of Life</title>
+<meta name="description" content="Premium Shariah-compliant banking from Dubai Islamic Bank Pakistan — accounts, Priority Banking, home finance and digital banking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,400;1,6..96,500&family=Urbanist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --night:#0a2a20; --night-2:#0f3d2e; --em:#0f3d2e; --em-2:#16523e; --em-3:#16523e;
+  --gold:#c99b48; --gold-2:#e2c487; --gold-3:#b48a3c; --champ:#f3e6c6;
+  --ivory:#f7f6f0; --paper:#fffffb; --stone:#e9dfc7; --sage:#dfeadf;
+  --ink:#12201a; --ink-2:#4d5b54; --ink-3:#8a958f; --line:#e4e6dc; --line-d:rgba(226,196,135,.18);
+  --ok:#1d8a57; --red:#c4432f;
+  --f:"Urbanist",system-ui,-apple-system,"Segoe UI",sans-serif; --s:"Bodoni Moda",Georgia,serif;
+  --wrap:1260px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{font-family:var(--f);color:var(--ink);background:var(--ivory);font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+input,select{font:inherit;color:inherit}
+img,svg{display:block}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 36px}
+.ic{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.it{font-family:var(--s);font-style:italic;font-weight:400;letter-spacing:-.01em}
+.kick{display:inline-flex;align-items:center;gap:14px;font-size:12px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-3)}
+.kick::before{content:"";width:34px;height:1px;background:currentColor}
+.dk .kick{color:var(--gold-2)}
+.h2{font-size:clamp(36px,4.3vw,60px);line-height:1.04;font-weight:500;letter-spacing:-.035em;color:var(--em);margin-top:18px}
+.h2 .it{color:var(--gold-3)}
+.dk .h2{color:#fff}
+.dk .h2 .it{color:var(--gold-2)}
+.lead{font-size:18px;font-weight:300;color:var(--ink-2);max-width:540px;margin-top:18px}
+.dk .lead{color:rgba(243,230,198,.7)}
+.sec{padding:120px 0}
+.top{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:56px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:56px;padding:0 30px;border-radius:999px;font-weight:600;font-size:15.5px;letter-spacing:.01em;transition:transform .25s,box-shadow .25s,background .25s,color .25s,border-color .25s;white-space:nowrap}
+.btn .ic{width:18px;height:18px;transition:transform .25s}
+.btn:hover .ic{transform:translateX(4px)}
+.b-gold{background:linear-gradient(135deg,#f1d9a2,#c99b48 50%,#b48a3c);color:#1a1307;box-shadow:0 16px 34px -16px rgba(201,155,72,.95),inset 0 1px 0 rgba(255,255,255,.5)}
+.b-gold:hover{transform:translateY(-2px)}
+.b-glass{border:1px solid rgba(243,230,198,.35);color:#fff;background:rgba(255,255,255,.05);backdrop-filter:blur(10px)}
+.b-glass:hover{background:rgba(255,255,255,.12);border-color:var(--gold-2)}
+.b-em{background:var(--em);color:#fff;box-shadow:0 14px 28px -16px rgba(15,61,46,.9)}
+.b-em:hover{background:var(--night-2);transform:translateY(-2px)}
+.b-line{border:1px solid var(--line);color:var(--em)}
+.b-line:hover{border-color:var(--gold)}
+.lnk{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--em)}
+.lnk .ic{width:17px;height:17px;transition:transform .25s}
+.lnk:hover .ic{transform:translateX(4px)}
+
+/* ---------- Header ---------- */
+.hd{position:fixed;inset:0 0 auto 0;z-index:60;color:#fff;transition:background .4s,box-shadow .4s}
+.hd.solid{background:rgba(15,61,46,.96);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 1px 0 var(--line-d)}
+.hd-a{border-bottom:1px solid rgba(243,230,198,.12);font-size:13px}
+.hd-a .wrap{display:flex;justify-content:space-between;align-items:center;height:40px;color:rgba(243,230,198,.7)}
+.hd-a nav{display:flex;gap:24px}
+.hd-a nav a{transition:color .2s}
+.hd-a nav a.on,.hd-a nav a:hover{color:var(--gold-2)}
+.hd-a .r{display:flex;gap:22px;align-items:center}
+.hd-a .r a{display:inline-flex;align-items:center;gap:6px;transition:color .2s}
+.hd-a .r a:hover{color:var(--gold-2)}
+.hd-a .ic{width:14px;height:14px}
+.hd-b .wrap{display:flex;align-items:center;gap:40px;height:84px}
+.brand{display:flex;align-items:center;gap:12px;flex:none}
+.brand svg{width:44px;height:44px}
+.brand b{display:block;font-weight:700;font-size:22px;letter-spacing:.06em;line-height:1}
+.brand small{display:block;font-size:9.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-2);margin-top:5px;font-weight:500}
+.menu{display:flex;list-style:none;gap:6px;margin-left:auto}
+.menu a{position:relative;display:block;padding:10px 14px;font-size:15px;font-weight:500;color:rgba(255,255,255,.85);transition:color .2s}
+.menu a::after{content:"";position:absolute;left:14px;right:14px;bottom:4px;height:1px;background:var(--gold-2);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.menu a:hover{color:#fff}
+.menu a:hover::after{transform:scaleX(1)}
+.hd-r{display:flex;align-items:center;gap:12px}
+.lgw{position:relative}
+.lg-b{display:flex;align-items:center;gap:8px;height:46px;padding:0 18px;border-radius:999px;border:1px solid rgba(243,230,198,.35);font-weight:600;font-size:14.5px;transition:.2s}
+.lg-b:hover,.lgw.open .lg-b{border-color:var(--gold-2);color:var(--gold-2)}
+.lg-b .ic{width:16px;height:16px}
+.lg-p{position:absolute;right:0;top:calc(100% + 14px);width:290px;padding:10px;border-radius:22px;background:rgba(10,31,23,.96);backdrop-filter:blur(16px);border:1px solid var(--line-d);box-shadow:0 40px 70px -30px rgba(0,0,0,.8);opacity:0;visibility:hidden;transform:translateY(-6px);transition:.25s}
+.lgw.open .lg-p{opacity:1;visibility:visible;transform:none}
+.lg-p a{display:flex;justify-content:space-between;align-items:center;padding:14px;border-radius:14px;font-weight:500}
+.lg-p a:hover{background:rgba(226,196,135,.08);color:var(--gold-2)}
+.lg-p small{display:block;font-size:12.5px;color:rgba(243,230,198,.5);font-weight:400}
+.lg-p .ic{width:16px;height:16px;color:var(--gold-2)}
+.hd-r .btn{height:46px;padding:0 22px;font-size:14.5px}
+.burger{display:none;width:46px;height:46px;border-radius:50%;border:1px solid rgba(243,230,198,.35);place-items:center}
+.drw{position:fixed;inset:0;z-index:110;background:var(--night);color:#fff;padding:24px;overflow-y:auto;opacity:0;visibility:hidden;transition:.35s}
+.drw.open{opacity:1;visibility:visible}
+.drw-t{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.drw a.dl{display:flex;justify-content:space-between;align-items:center;padding:18px 0;border-bottom:1px solid var(--line-d);font-size:24px;font-weight:500}
+.drw a.dl .ic{color:var(--gold-2)}
+.drw .btn{width:100%;margin-top:14px}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;min-height:min(980px,100vh);display:flex;align-items:center;color:#fff;overflow:hidden;isolation:isolate;background:var(--night)}
+.hero-bg{position:absolute;top:0;left:0;height:100%;width:160%;max-width:none;object-fit:cover;object-position:50% 55%;z-index:-3;transform-origin:65% 50%;animation:hz 26s ease-out both}
+@keyframes hz{from{transform:scale(1.12)}to{transform:scale(1)}}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(10,42,32,.96) 0%,rgba(10,42,32,.86) 32%,rgba(10,42,32,.35) 58%,rgba(10,42,32,.15) 100%),linear-gradient(0deg,rgba(10,42,32,.95) 0%,rgba(10,42,32,0) 38%),linear-gradient(180deg,rgba(10,42,32,.7) 0%,rgba(10,42,32,0) 24%)}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(600px 420px at 18% 55%,rgba(201,155,72,.16),transparent 70%)}
+.hero .wrap{width:100%;padding-top:140px;padding-bottom:150px}
+.hero-c{max-width:660px}
+.hero h1{font-size:clamp(50px,6.6vw,98px);line-height:.96;font-weight:500;letter-spacing:-.045em;margin:26px 0 24px}
+.hero h1 .it{display:block;font-weight:400;font-size:1.04em;background:linear-gradient(110deg,#e2c487,#f6e4b8 35%,#c99b48 60%,#e9cf93);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 7s ease-in-out infinite;padding-bottom:.08em}
+@keyframes sh{50%{background-position:100% 0}}
+.hero p.sub{font-size:19px;font-weight:300;color:rgba(243,230,198,.78);max-width:500px}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:40px}
+.hero .ctas .btn{height:60px;padding:0 34px;font-size:16px}
+.rise{animation:rise 1.1s cubic-bezier(.2,.8,.2,1) both}
+.rise.d1{animation-delay:.12s}.rise.d2{animation-delay:.24s}.rise.d3{animation-delay:.36s}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}}
+.hero-bar{position:absolute;left:0;right:0;bottom:0;border-top:1px solid var(--line-d);background:rgba(10,42,32,.5);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.hero-bar .wrap{display:grid;grid-template-columns:repeat(4,1fr) auto;align-items:center;padding-top:0;padding-bottom:0;height:92px}
+.hb{display:flex;align-items:center;gap:14px;padding-right:20px}
+.hb + .hb{padding-left:26px;border-left:1px solid var(--line-d)}
+.hb i{width:40px;height:40px;border-radius:50%;border:1px solid rgba(226,196,135,.4);display:grid;place-items:center;color:var(--gold-2);flex:none}
+.hb i .ic{width:17px;height:17px}
+.hb b{display:block;font-size:15px;font-weight:600}
+.hb small{font-size:13px;color:rgba(243,230,198,.55)}
+.scroll{display:flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:rgba(243,230,198,.6)}
+.scroll span{width:1px;height:38px;background:linear-gradient(var(--gold-2),transparent);position:relative;overflow:hidden}
+.scroll span::after{content:"";position:absolute;left:0;top:-14px;width:1px;height:14px;background:#fff;animation:drop 2s ease-in-out infinite}
+@keyframes drop{to{top:38px}}
+
+/* ---------- Paths ---------- */
+.paths{background:var(--paper)}
+.path-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.path{position:relative;height:520px;border-radius:30px;overflow:hidden;color:#fff;isolation:isolate;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;transition:flex .5s}
+.path img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+.path::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,42,32,.05) 25%,rgba(10,42,32,.6) 55%,rgba(10,42,32,.95) 100%);transition:.5s}
+.path:hover img{transform:scale(1.07)}
+.path:hover::after{background:linear-gradient(180deg,rgba(10,42,32,.2) 0%,rgba(10,42,32,.82) 45%,rgba(10,42,32,.97) 100%)}
+.path .no{position:absolute;top:24px;left:28px;font-family:var(--s);font-style:italic;font-size:22px;color:var(--gold-2)}
+.path .tg{position:absolute;top:24px;right:24px;font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border-radius:999px;border:1px solid rgba(243,230,198,.4);background:rgba(10,42,32,.3);backdrop-filter:blur(6px)}
+.path h3{font-size:30px;font-weight:500;letter-spacing:-.02em;line-height:1.05}
+.path p{font-size:14.5px;color:rgba(243,230,198,.75);margin-top:8px;font-weight:300}
+.path ul{list-style:none;display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s,margin .5s;margin-top:0}
+.path ul > div{overflow:hidden}
+.path li{display:flex;gap:10px;font-size:14px;padding:6px 0;color:rgba(255,255,255,.88)}
+.path li .ic{width:16px;height:16px;color:var(--gold-2);margin-top:3px}
+.path:hover ul,.path:focus-visible ul{grid-template-rows:1fr;margin-top:14px}
+.path .go{display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:16px;border-top:1px solid rgba(243,230,198,.2);font-weight:600;font-size:14.5px}
+.path .go i{width:38px;height:38px;border-radius:50%;background:var(--gold);color:#1a1307;display:grid;place-items:center;transition:transform .3s}
+.path:hover .go i{transform:rotate(-45deg)}
+.path .go .ic{width:16px;height:16px}
+
+/* ---------- Growth chart ---------- */
+.grow{background:var(--ivory)}
+.g-box{display:grid;grid-template-columns:380px 1fr;border-radius:36px;overflow:hidden;background:var(--paper);border:1px solid var(--line);box-shadow:0 50px 90px -60px rgba(15,61,46,.55)}
+.g-box > *{min-width:0}
+.g-ctl{padding:40px;border-right:1px solid var(--line);background:linear-gradient(180deg,#fffdf8,#f7f2e6)}
+.g-ctl h3{font-size:24px;font-weight:600;color:var(--em);letter-spacing:-.02em}
+.g-ctl > p{font-size:14.5px;color:var(--ink-2);margin:6px 0 30px;font-weight:300}
+.gf{margin-bottom:28px}
+.gf label{display:flex;justify-content:space-between;align-items:baseline;font-size:14.5px;font-weight:500;color:var(--ink-2);margin-bottom:12px}
+.gf label b{font-family:var(--s);font-style:italic;font-size:24px;font-weight:400;color:var(--em)}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--gold) var(--p,50%),var(--line) var(--p,50%));outline:0}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:24px;height:24px;border-radius:50%;background:#fff;border:1px solid var(--gold);box-shadow:0 0 0 5px rgba(201,155,72,.18),0 4px 10px rgba(15,61,46,.25);cursor:pointer}
+input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:#fff;border:1px solid var(--gold);cursor:pointer}
+.rs{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-3);margin-top:8px}
+.goals{display:flex;flex-wrap:wrap;gap:8px}
+.goals button{height:38px;padding:0 15px;border-radius:999px;border:1px solid var(--line);font-size:13.5px;font-weight:500;color:var(--ink-2);transition:.2s;background:#fff}
+.goals button.on{border-color:var(--em);background:var(--em);color:#fff}
+.g-out{padding:40px 44px;display:flex;flex-direction:column}
+.g-sum{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:20px;margin-bottom:26px}
+.g-sum small{display:block;font-size:13px;color:var(--ink-3);font-weight:500}
+.g-sum b{display:block;font-size:30px;font-weight:500;letter-spacing:-.03em;color:var(--em);line-height:1.15}
+.g-sum div:first-child b{font-size:44px;background:linear-gradient(120deg,#0f3d2e,#16523e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.g-sum .pf b{color:var(--gold-3)}
+.chart{position:relative;flex:1;min-height:300px}
+.chart svg{width:100%;height:100%}
+.chart .grid line{stroke:var(--line);stroke-dasharray:3 5}
+.chart .lbl{font-size:11.5px;fill:var(--ink-3);font-family:var(--f)}
+.chart path{transition:d .6s cubic-bezier(.2,.8,.2,1)}
+.legend{display:flex;gap:22px;font-size:13.5px;color:var(--ink-2);margin-top:14px}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend i{width:12px;height:12px;border-radius:4px}
+.tipbox{position:absolute;pointer-events:none;padding:10px 14px;border-radius:14px;background:var(--night);color:#fff;font-size:12.5px;box-shadow:0 16px 30px -12px rgba(0,0,0,.5);transform:translate(-50%,-115%);opacity:0;transition:opacity .2s;white-space:nowrap}
+.tipbox b{display:block;font-size:15px;color:var(--gold-2);font-weight:600}
+.g-note{font-size:12px;color:var(--ink-3);margin-top:12px}
+
+/* ---------- Cards (flip) ---------- */
+.cards{background:radial-gradient(900px 500px at 50% 0%,rgba(201,155,72,.14),transparent 65%),linear-gradient(180deg,var(--night-2),var(--night));color:#fff;overflow:hidden}
+.flip-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;perspective:1600px}
+.flip{position:relative;height:430px;cursor:pointer;outline:0}
+.flip-in{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .9s cubic-bezier(.2,.8,.2,1)}
+.flip.on .flip-in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:30px;padding:28px;display:flex;flex-direction:column;border:1px solid var(--line-d);background:rgba(255,255,255,.035)}
+.face.back{transform:rotateY(180deg);background:linear-gradient(160deg,#145039,#0a2a20)}
+.mc{aspect-ratio:1.586;border-radius:18px;padding:20px 22px;position:relative;overflow:hidden;box-shadow:0 30px 50px -24px rgba(0,0,0,.8);transition:transform .5s}
+.flip:hover .mc{transform:translateY(-6px) rotate(-1.5deg)}
+.mc::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,transparent 0 3px,rgba(255,255,255,.06) 3px 4px)}
+.mc::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.35) 50%,transparent 62%);transform:translateX(-130%);transition:transform 1s}
+.flip:hover .mc::after{transform:translateX(130%)}
+.mc > *{position:relative}
+.mc .r1{display:flex;justify-content:space-between;font-weight:700;letter-spacing:.06em;font-size:19px}
+.mc .r1 small{font-size:9.5px;letter-spacing:.24em;font-weight:600;text-align:right;opacity:.85}
+.mc .ch{width:42px;height:31px;border-radius:7px;background:linear-gradient(135deg,#fff3d1,#caa660);margin:24px 0 14px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.15)}
+.mc .no{font-family:ui-monospace,Menlo,monospace;letter-spacing:.15em;font-size:15px}
+.mc .nt{position:absolute;right:22px;bottom:18px;font-weight:800;font-style:italic;font-size:21px}
+.mc.c1{background:linear-gradient(135deg,#1d8a5c,#0f3d2e);color:#fff}
+.mc.c2{background:linear-gradient(135deg,#f3e2b5 0%,#c99b48 40%,#e9cf93 60%,#b48a3c 100%);color:#1a1307}
+.mc.c3{background:linear-gradient(135deg,#3a3f45,#0e1114);color:#f3e7c9}
+.face h3{font-size:24px;font-weight:500;margin-top:24px;letter-spacing:-.02em}
+.face .sub2{font-size:14.5px;color:rgba(243,230,198,.6);margin-top:4px;font-weight:300}
+.face .hint{margin-top:auto;display:flex;justify-content:space-between;align-items:center;font-size:13.5px;color:var(--gold-2);padding-top:16px;border-top:1px solid var(--line-d)}
+.face .hint .ic{width:18px;height:18px}
+.face.back h3{margin-top:0;font-size:22px}
+.face.back ul{list-style:none;margin:18px 0;display:flex;flex-direction:column;gap:12px}
+.face.back li{display:flex;justify-content:space-between;gap:12px;font-size:14.5px;padding-bottom:12px;border-bottom:1px solid var(--line-d)}
+.face.back li span{color:rgba(243,230,198,.6)}
+.face.back li b{font-weight:600;text-align:right}
+.face.back .btn{margin-top:auto;height:50px}
+
+/* ---------- Home steps ---------- */
+.steps{background:var(--paper)}
+.st-wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:72px;align-items:center}
+.st-wrap > *{min-width:0}
+.st-pic{position:relative;height:600px;border-radius:220px 220px 32px 32px;overflow:hidden;box-shadow:0 50px 90px -50px rgba(15,61,46,.7)}
+.st-pic img{width:100%;height:100%;object-fit:cover}
+.st-pic::after{content:"";position:absolute;inset:14px;border-radius:206px 206px 22px 22px;border:1px solid rgba(255,255,255,.55);pointer-events:none}
+.st-badge{position:absolute;left:24px;right:24px;bottom:24px;padding:18px 20px;border-radius:20px;background:rgba(10,42,32,.6);backdrop-filter:blur(14px);color:#fff;display:flex;align-items:center;gap:14px;border:1px solid rgba(255,255,255,.15)}
+.st-badge b{font-family:var(--s);font-style:italic;font-size:40px;font-weight:400;color:var(--gold-2);line-height:1}
+.st-badge span{font-size:14px;color:rgba(243,230,198,.8);line-height:1.4}
+.tl{position:relative;margin-top:44px;padding-left:44px}
+.tl::before{content:"";position:absolute;left:15px;top:8px;bottom:8px;width:1px;background:var(--line)}
+.tl .fill{position:absolute;left:15px;top:8px;width:1px;height:0;background:linear-gradient(var(--gold),var(--em));transition:height 1.6s cubic-bezier(.2,.8,.2,1)}
+.tl.go .fill{height:calc(100% - 16px)}
+.ts{position:relative;padding-bottom:30px}
+.ts:last-child{padding-bottom:0}
+.ts .dot{position:absolute;left:-44px;top:0;width:31px;height:31px;border-radius:50%;background:var(--paper);border:1px solid var(--gold);display:grid;place-items:center;font-family:var(--s);font-style:italic;font-size:15px;color:var(--gold-3)}
+.ts h4{font-size:20px;font-weight:600;color:var(--em);letter-spacing:-.01em}
+.ts p{font-size:15px;color:var(--ink-2);font-weight:300;margin-top:4px}
+.ts .meta{display:inline-flex;gap:6px;align-items:center;margin-top:8px;font-size:12.5px;color:var(--gold-3);font-weight:600}
+.ts .meta .ic{width:14px;height:14px}
+.st-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:40px}
+
+/* ---------- Trust ---------- */
+.trust{background:var(--night);color:#fff;position:relative;overflow:hidden;isolation:isolate}
+.trust::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='none' stroke='%23e2c487' stroke-width='1'%3E%3Cpath d='M48 6l12 30 30 12-30 12-12 30-12-30L6 48l30-12z'/%3E%3Crect x='27' y='27' width='42' height='42' transform='rotate(45 48 48)'/%3E%3Crect x='27' y='27' width='42' height='42'/%3E%3C/g%3E%3C/svg%3E")}
+.tr-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:72px;align-items:center}
+.tr-grid > *{min-width:0}
+.tr-stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line-d);border:1px solid var(--line-d);border-radius:28px;overflow:hidden}
+.tr-stats div{padding:34px 30px;background:var(--night)}
+.tr-stats b{display:block;font-family:var(--s);font-style:italic;font-weight:400;font-size:58px;line-height:1;color:var(--gold-2)}
+.tr-stats span{display:block;font-size:15px;color:rgba(243,230,198,.65);margin-top:10px}
+.tr-pts{list-style:none;display:flex;flex-direction:column;gap:16px;margin-top:34px}
+.tr-pts li{display:flex;gap:14px;align-items:flex-start}
+.tr-pts i{width:40px;height:40px;border-radius:50%;border:1px solid rgba(226,196,135,.4);color:var(--gold-2);display:grid;place-items:center;flex:none}
+.tr-pts i .ic{width:18px;height:18px}
+.tr-pts b{display:block;font-weight:600}
+.tr-pts span{font-size:14.5px;color:rgba(243,230,198,.6);font-weight:300}
+
+/* ---------- Callback ---------- */
+.call{background:var(--ivory)}
+.cb{display:grid;grid-template-columns:1fr 1.1fr;border-radius:36px;overflow:hidden;background:var(--paper);border:1px solid var(--line);box-shadow:0 50px 90px -60px rgba(15,61,46,.5)}
+.cb > *{min-width:0}
+.cb-pic{position:relative;min-height:600px;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:40px;isolation:isolate}
+.cb-pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 25%;z-index:-2}
+.cb-pic::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,42,32,0) 35%,rgba(10,42,32,.92))}
+.cb-pic h3{font-size:34px;font-weight:500;letter-spacing:-.03em;line-height:1.1}
+.cb-pic h3 .it{color:var(--gold-2)}
+.cb-pic p{color:rgba(243,230,198,.75);font-weight:300;margin-top:10px}
+.cb-pic .ch2{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.cb-pic .ch2 a{display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 16px;border-radius:999px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(8px);font-size:14px;font-weight:500}
+.cb-pic .ch2 .ic{width:16px;height:16px;color:var(--gold-2)}
+.cb-form{padding:48px}
+.cb-form h3{font-size:28px;font-weight:600;letter-spacing:-.02em;color:var(--em)}
+#cbForm > p:first-of-type{color:var(--ink-2);font-weight:300;margin:6px 0 28px}
+.f2{margin-bottom:20px}
+.f2 > label{display:block;font-size:14px;font-weight:600;color:var(--em);margin-bottom:9px}
+.fld{display:flex;align-items:center;height:56px;border-radius:16px;border:1px solid var(--line);background:#fff;transition:.2s}
+.fld:focus-within{border-color:var(--gold);box-shadow:0 0 0 4px rgba(201,155,72,.15)}
+.fld.err{border-color:var(--red)}
+.fld span{padding-left:18px;color:var(--ink-3);font-size:14px;font-weight:600}
+.fld input,.fld select{flex:1;min-width:0;height:100%;border:0;outline:0;background:transparent;padding:0 18px;font-size:16px;font-weight:500}
+.fld select{appearance:none;-webkit-appearance:none;cursor:pointer;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23b48a3c' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 18px center;padding-right:44px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.two > *{min-width:0}
+.times{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.times button{height:48px;border-radius:14px;border:1px solid var(--line);font-size:14px;font-weight:500;color:var(--ink-2);background:#fff;transition:.2s}
+.times button small{display:block;font-size:11.5px;color:var(--ink-3);line-height:1}
+.times button.on{border-color:var(--em);background:var(--em);color:#fff}
+.times button.on small{color:var(--champ)}
+.consent{display:flex;gap:12px;align-items:flex-start;font-size:13.5px;color:var(--ink-2);margin:6px 0 22px;cursor:pointer}
+.consent input{width:18px;height:18px;margin-top:2px;accent-color:var(--em)}
+.emsg{font-size:13px;color:var(--red);margin:-8px 0 14px;min-height:1px}
+.cb-form .btn{width:100%}
+.demo{font-size:12px;color:var(--ink-3);text-align:center;margin-top:12px}
+.cb-done{display:none;text-align:center;padding:40px 10px}
+.cb-done .ok{width:76px;height:76px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;background:linear-gradient(135deg,#f1d9a2,#c99b48);color:#1a1307}
+.cb-done .ok .ic{width:34px;height:34px}
+.cb-done h3{font-size:28px;color:var(--em);font-weight:600}
+.cb-done p{color:var(--ink-2);margin-top:8px}
+.cb-done .ref{display:inline-block;margin-top:16px;padding:8px 16px;border-radius:12px;background:var(--ivory);border:1px solid var(--line);font-weight:600;letter-spacing:.08em;color:var(--em)}
+
+/* ---------- Footer ---------- */
+footer{background:var(--night);color:rgba(243,230,198,.6);font-size:14.5px;position:relative;overflow:hidden}
+.ft-cta{display:flex;justify-content:space-between;align-items:center;gap:30px;padding:70px 0;border-bottom:1px solid var(--line-d);flex-wrap:wrap}
+.ft-cta h3{font-size:clamp(32px,3.6vw,48px);font-weight:500;letter-spacing:-.03em;color:#fff;line-height:1.05}
+.ft-cta h3 .it{color:var(--gold-2)}
+.ft-cta .acts{display:flex;gap:12px;flex-wrap:wrap}
+.ft{display:grid;grid-template-columns:1.4fr repeat(4,1fr);gap:40px;padding:64px 0 50px}
+.ft h5{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-2);margin-bottom:18px;font-weight:600}
+.ft ul{list-style:none;display:flex;flex-direction:column;gap:11px}
+.ft ul a{transition:color .2s}
+.ft ul a:hover{color:#fff}
+.ft .ab p{margin:18px 0 22px;max-width:290px;font-weight:300}
+.ft .ab .brand{color:#fff}
+.ft .hot{display:inline-flex;align-items:center;gap:12px;font-size:22px;font-weight:600;color:#fff}
+.ft .hot i{width:44px;height:44px;border-radius:50%;border:1px solid rgba(226,196,135,.45);display:grid;place-items:center;color:var(--gold-2)}
+.ft .hot .ic{width:18px;height:18px}
+.ft-b{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0 36px;border-top:1px solid var(--line-d);font-size:13px;flex-wrap:wrap}
+.soc{display:flex;gap:8px}
+.soc a{width:40px;height:40px;border-radius:50%;border:1px solid var(--line-d);display:grid;place-items:center;transition:.2s}
+.soc a:hover{border-color:var(--gold-2);color:var(--gold-2)}
+.soc svg{width:15px;height:15px;fill:currentColor}
+.wm{font-family:var(--s);font-style:italic;font-size:clamp(70px,13vw,200px);line-height:.8;text-align:center;color:transparent;-webkit-text-stroke:1px rgba(226,196,135,.12);white-space:nowrap;transform:translateY(18%);user-select:none}
+.wa{position:fixed;right:22px;bottom:22px;z-index:70;width:56px;height:56px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 12px 26px -8px rgba(37,211,102,.6);transition:.2s}
+.wa:hover{transform:scale(1.07)}
+.wa svg{width:28px;height:28px;fill:#fff}
+
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.8,.2,1)}
+.rv.shown{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1180px){
+  .menu{display:none}
+  .burger{display:grid}
+  .hd-r{margin-left:auto}
+  .path-grid{grid-template-columns:1fr 1fr}
+  .path{height:440px}
+  .g-box{grid-template-columns:1fr}
+  .g-ctl{border-right:0;border-bottom:1px solid var(--line)}
+  .ft{grid-template-columns:1fr 1fr 1fr}
+  .ft .ab{grid-column:1/-1}
+}
+@media (max-width:980px){
+  .hd-r .btn{display:none}
+  .hero-bar .wrap{grid-template-columns:1fr 1fr;height:auto;padding-top:16px;padding-bottom:16px;gap:14px 0}
+  .hb:nth-child(3){border-left:0;padding-left:0}
+  .scroll{display:none}
+  .hero .wrap{padding-bottom:200px}
+  .flip-grid{grid-template-columns:1fr;max-width:460px;margin:0 auto}
+  .st-wrap,.tr-grid,.cb{grid-template-columns:1fr;gap:48px}
+  .cb{gap:0}
+  .st-pic{height:480px;max-width:520px;margin:0 auto;width:100%}
+  .cb-pic{min-height:420px}
+  .top{flex-direction:column;align-items:flex-start}
+}
+@media (max-width:640px){
+  .wrap{padding:0 18px}
+  .hd-a{display:none}
+  .hd-b .wrap{height:70px}
+  .lg-b span{display:none}
+  .lg-b{width:46px;padding:0;justify-content:center}
+  .hero-bg{width:220%;left:-80%}
+  .hero::before{background:linear-gradient(0deg,rgba(10,42,32,.97) 0%,rgba(10,42,32,.8) 50%,rgba(10,42,32,.45) 100%)}
+  .hero .wrap{padding-top:120px;padding-bottom:240px}
+  .hero h1{font-size:48px}
+  .hero p.sub{font-size:17px}
+  .hero .ctas .btn{width:100%}
+  .hero-bar .wrap{grid-template-columns:1fr}
+  .hb + .hb{border-left:0;padding-left:0}
+  .hb:nth-child(n+3){display:none}
+  .sec{padding:80px 0}
+  .path-grid{grid-template-columns:1fr}
+  .path{height:400px}
+  .path ul{grid-template-rows:1fr;margin-top:12px}
+  .g-ctl,.g-out{padding:26px 22px}
+  .g-sum{grid-template-columns:1fr 1fr}
+  .g-sum div:first-child{grid-column:1/-1}
+  .g-sum div:first-child b{font-size:38px}
+  .tr-stats b{font-size:44px}
+  .tr-stats div{padding:24px 20px}
+  .cb-form{padding:28px 22px}
+  .two{grid-template-columns:1fr}
+  .st-pic{height:400px;border-radius:170px 170px 26px 26px}
+  .st-pic::after{border-radius:156px 156px 16px 16px}
+  .ft{grid-template-columns:1fr 1fr}
+}
+
+/* V4 approved palette layer */
+.hero{background:#0b2f23}
+.hero::before{background:linear-gradient(90deg,rgba(11,47,35,.96) 0%,rgba(11,47,35,.86) 32%,rgba(11,47,35,.35) 58%,rgba(11,47,35,.12) 100%),linear-gradient(0deg,rgba(10,42,32,.95) 0%,rgba(10,42,32,0) 38%),linear-gradient(180deg,rgba(10,42,32,.7) 0%,rgba(10,42,32,0) 24%)}
+.hero::after{background:radial-gradient(600px 420px at 18% 55%,rgba(226,196,135,.2),transparent 70%)}
+.cards{background:radial-gradient(900px 500px at 50% 0%,rgba(226,196,135,.18),transparent 65%),linear-gradient(180deg,#0f3d2e,#0a2a20)}
+.trust{background:linear-gradient(160deg,#145039,#0a2a20)}
+.trust .tr-stats div{background:#0d3528}
+footer{background:#0a2a20}
+.paths,.steps{background:var(--paper)}
+.grow,.call{background:var(--ivory)}
+.g-ctl{background:linear-gradient(180deg,#fffffb,#eef4ee)}
+.goals button.on,.times button.on{background:var(--em);border-color:var(--em)}
+
+/* ---------- Bank layer ---------- */
+.tick{position:fixed;inset:0 0 auto 0;z-index:61;height:34px;background:var(--gold-2);color:var(--em);font-size:13px;font-weight:600;overflow:hidden;white-space:nowrap}
+.tick .wrap{display:flex;align-items:center;gap:16px;height:100%}
+.tick b{flex:none;display:inline-flex;align-items:center;gap:6px;background:var(--em);color:var(--gold-2);font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:3px 11px;border-radius:999px}
+.tick b .ic{width:12px;height:12px}
+.tick .mq{flex:1;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.tick .mq div{display:inline-flex;gap:60px;animation:mq 45s linear infinite}
+.tick .mq span::before{content:"◆";color:var(--gold-3);margin-right:12px;font-size:9px}
+@keyframes mq{to{transform:translateX(-50%)}}
+.hd{top:34px}
+.hero-grid{display:grid;grid-template-columns:1fr 400px;gap:60px;align-items:center}
+.hero-grid > *{min-width:0}
+.hero .wrap.hero-grid{padding-top:200px;padding-bottom:170px}
+.hero h1{font-size:clamp(46px,5.4vw,80px)}
+.h-trust{display:flex;gap:24px;flex-wrap:wrap;margin-top:30px;font-size:13.5px;color:rgba(243,230,198,.7)}
+.h-trust span{display:inline-flex;align-items:center;gap:8px}
+.h-trust .ic{width:16px;height:16px;color:var(--gold-2)}
+.ib{background:rgba(255,255,251,.97);color:var(--ink);border-radius:26px;padding:28px;box-shadow:0 40px 80px -30px rgba(0,0,0,.65);position:relative}
+.ib::before{content:"";position:absolute;left:28px;right:28px;top:0;height:3px;border-radius:0 0 4px 4px;background:linear-gradient(90deg,var(--gold-2),var(--gold-3))}
+.ib-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.ib-h b{display:flex;align-items:center;gap:9px;font-size:19px;font-weight:700;color:var(--em)}
+.ib-h b .ic{color:var(--gold-3)}
+.sec-b{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;color:var(--ok);background:#e3f3ea;padding:4px 10px;border-radius:999px}
+.sec-b i{width:6px;height:6px;border-radius:50%;background:var(--ok)}
+.ib-tabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;background:var(--ivory);border:1px solid var(--line);border-radius:14px;margin-bottom:14px}
+.ib-tabs button{height:40px;border-radius:10px;font-weight:600;font-size:14px;color:var(--ink-2)}
+.ib-tabs button.on{background:#fff;color:var(--em);box-shadow:0 2px 8px rgba(15,61,46,.12)}
+.ib-f{display:flex;align-items:center;gap:10px;height:54px;padding:0 16px;border-radius:14px;border:1px solid var(--line);background:#fff;margin-bottom:12px;transition:.2s}
+.ib-f:focus-within{border-color:var(--gold);box-shadow:0 0 0 4px rgba(201,155,72,.15)}
+.ib-f .ic{color:var(--ink-3);width:18px;height:18px}
+.ib-f input{flex:1;min-width:0;border:0;outline:0;font-size:15.5px;background:transparent}
+.ib-go{width:100%;height:54px}
+.ib-l{display:flex;justify-content:space-between;font-size:13.5px;font-weight:600;margin:14px 0 16px}
+.ib-l a{color:var(--em)}
+.ib-l a:hover{color:var(--gold-3)}
+.ib-app{display:flex;align-items:center;gap:8px;padding:14px;border-radius:16px;background:linear-gradient(135deg,var(--em-2),var(--night));color:#fff}
+.ib-app span{flex:1;font-size:12.5px;color:rgba(243,230,198,.7);line-height:1.35}
+.ib-app span b{display:block;font-size:14px;color:#fff}
+.ib-app a{height:34px;padding:0 12px;border-radius:999px;background:var(--gold-2);color:var(--em);font-size:12.5px;font-weight:700;display:grid;place-items:center}
+.ib-w{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--ink-3);margin-top:12px}
+.ib-w .ic{width:14px;height:14px;color:var(--gold-3)}
+.hero-bar .wrap{grid-template-columns:repeat(6,1fr);height:96px}
+.hero-bar a.hb{transition:background .2s;height:100%;padding-right:14px}
+.hero-bar a.hb:hover{background:rgba(226,196,135,.08)}
+.hero-bar a.hb:hover i{background:var(--gold-2);color:var(--em)}
+.hb i{transition:.2s}
+.hb + .hb{padding-left:18px}
+.hb b{font-size:14.5px}
+.hb small{font-size:12px}
+/* help band */
+.helpb{background:var(--paper)}
+.hp-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:18px}
+.hp{border-radius:26px;padding:28px;background:var(--ivory);border:1px solid var(--line);display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
+.hp:hover{transform:translateY(-4px);box-shadow:0 30px 60px -36px rgba(15,61,46,.5)}
+.hp i{width:50px;height:50px;border-radius:16px;background:var(--em);color:var(--gold-2);display:grid;place-items:center;margin-bottom:20px}
+.hp i .ic{width:22px;height:22px}
+.hp h3{font-size:21px;font-weight:600;color:var(--em);letter-spacing:-.01em}
+.hp p{font-size:14.5px;color:var(--ink-2);font-weight:300;margin:6px 0 18px}
+.hp .lnk{margin-top:auto}
+.hp.big{background:linear-gradient(160deg,#145039,#0a2a20);color:#fff;border-color:transparent}
+.hp.big h3{color:#fff;font-size:24px}
+.hp.big p{color:rgba(243,230,198,.7)}
+.hp.big i{background:var(--gold-2);color:var(--em)}
+.hp-s{display:flex;gap:8px;margin-top:auto}
+.hp-s select{flex:1;min-width:0;height:52px;border-radius:999px;border:0;padding:0 18px;font-size:15px;font-weight:500;color:var(--em);background:#fff;cursor:pointer}
+.hp-s .btn{height:52px;padding:0 22px}
+.hp.red i{background:#c4432f;color:#fff}
+@media (max-width:1180px){
+  .hero-bar .wrap{grid-template-columns:repeat(3,1fr);height:auto;padding-top:14px;padding-bottom:14px;gap:12px 0}
+  .hb:nth-child(4){border-left:0;padding-left:0}
+  .hero .wrap.hero-grid{padding-bottom:240px}
+  .hp-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr;gap:36px}
+  .ib{max-width:480px}
+  .hero .wrap.hero-grid{padding-top:180px}
+}
+@media (max-width:640px){
+  .tick b{display:none}
+  .hero .wrap.hero-grid{padding-top:150px;padding-bottom:40px}
+  .hero-bar{position:relative}
+  .hero-bar .wrap{grid-template-columns:1fr 1fr}
+  .hb + .hb,.hb:nth-child(4){border-left:0;padding-left:0}
+  .hb:nth-child(n+3){display:flex}
+  .hb:nth-child(odd){padding-left:0}
+  .hb small{display:none}
+  .hero{flex-direction:column;align-items:stretch}
+  .hp-grid{grid-template-columns:1fr}
+  .ib{padding:22px}
+}
+
+/* official DIB logo */
+.has-logo{display:inline-flex;align-items:center;flex:none}
+.dib-logo{display:block;height:46px;width:auto}
+footer .dib-logo{height:52px}
+@media (max-width:640px){.dib-logo{height:38px}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="up" viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></symbol>
+  <symbol id="user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></symbol>
+  <symbol id="card" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6 15h4"/></symbol>
+  <symbol id="home" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></symbol>
+  <symbol id="growth" viewBox="0 0 24 24"><path d="M3 20l6-6 4 4 8-9"/><path d="M15 9h6v6"/></symbol>
+  <symbol id="phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></symbol>
+  <symbol id="pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0114 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  <symbol id="lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 018 0v3"/></symbol>
+  <symbol id="shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
+  <symbol id="bank" viewBox="0 0 24 24"><path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/></symbol>
+  <symbol id="menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="flip" viewBox="0 0 24 24"><path d="M3 12a9 9 0 0115.5-6.2L21 8M21 3v5h-5M21 12a9 9 0 01-15.5 6.2L3 16M3 21v-5h5"/></symbol>
+  <symbol id="chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z"/></symbol>
+  <symbol id="star" viewBox="0 0 24 24"><path d="M12 1l2.6 6.2L21 5l-2.2 6.4L23 12l-4.2.6L21 19l-6.4-2.2L12 23l-2.6-6.2L3 19l2.2-6.4L1 12l4.2-.6L3 5l6.4 2.2z"/></symbol>
+  <symbol id="logo" viewBox="0 0 48 48"><circle cx="24" cy="24" r="23" fill="none" stroke="#e2c487" stroke-width="1"/><circle cx="24" cy="24" r="19" fill="#0f3d2e"/><path d="M24 11c-5 5-7.8 9.4-7.8 13.3a7.8 7.8 0 0015.6 0C31.8 20.4 29 16 24 11z" fill="#e2c487"/><path d="M24 17c-2.6 2.9-4 5.3-4 7.4a4 4 0 008 0c0-2.1-1.4-4.5-4-7.4z" fill="#0f3d2e"/></symbol>
+</svg>
+
+<div class="tick" role="note"><div class="wrap"><b><svg class="ic"><use href="#shield"/></svg>Stay safe</b><div class="mq"><div><span>DIB will never ask for your PIN, OTP or password by call, SMS or WhatsApp.</span><span>Open your Digital Account in 5 minutes with the DIB Mobile App.</span><span>Lost your card? Block it instantly in the app or call 111-786-342.</span><span>Saturday banking now available at selected branches.</span><span>DIB will never ask for your PIN, OTP or password by call, SMS or WhatsApp.</span><span>Open your Digital Account in 5 minutes with the DIB Mobile App.</span><span>Lost your card? Block it instantly in the app or call 111-786-342.</span><span>Saturday banking now available at selected branches.</span></div></div></div></div>
+<!-- Header -->
+<header class="hd" id="hd">
+  <div class="hd-a"><div class="wrap">
+    <nav aria-label="Segment"><a href="#" class="on">Personal</a><a href="#priority">Priority</a><a href="#">Business</a><a href="#">Corporate</a></nav>
+    <div class="r"><a href="tel:111786342"><svg class="ic"><use href="#phone"/></svg>111-786-342</a><a href="#"><svg class="ic"><use href="#pin"/></svg>Branches</a><a href="#" lang="ur">اردو</a></div>
+  </div></div>
+  <div class="hd-b"><div class="wrap">
+    <a href="#" class="brand has-logo" aria-label="Dubai Islamic Bank Pakistan"><img class="dib-logo" src="assets/dib-logo-light.png" alt="Dubai Islamic Bank" width="243" height="87"></a>
+    <ul class="menu">
+      <li><a href="#">Accounts</a></li><li><a href="#cards">Cards</a></li><li><a href="#steps">Financing</a></li><li><a href="#grow">Savings</a></li><li><a href="#priority">Priority</a></li><li><a href="#help">Help</a></li>
+    </ul>
+    <div class="hd-r">
+      <div class="lgw" id="lgw">
+        <button class="lg-b" id="lgB" aria-haspopup="true" aria-expanded="false"><svg class="ic"><use href="#lock"/></svg><span>Login</span></button>
+        <div class="lg-p">
+          <a href="#"><span>Internet Banking<small>Personal accounts</small></span><svg class="ic"><use href="#arrow"/></svg></a>
+          <a href="#"><span>DIB Mobile App<small>Download or log in</small></span><svg class="ic"><use href="#arrow"/></svg></a>
+          <a href="#"><span>Business Online<small>Corporate &amp; SME</small></span><svg class="ic"><use href="#arrow"/></svg></a>
+        </div>
+      </div>
+      <a href="#" class="btn b-gold">Open an account</a>
+      <button class="burger" id="burger" aria-label="Menu"><svg class="ic"><use href="#menu"/></svg></button>
+    </div>
+  </div></div>
+</header>
+
+<div class="drw" id="drw" aria-hidden="true">
+  <div class="drw-t"><a href="#" class="brand has-logo" aria-label="Dubai Islamic Bank Pakistan"><img class="dib-logo" src="assets/dib-logo-light.png" alt="Dubai Islamic Bank" width="243" height="87"></a><button class="burger" style="display:grid" id="drwX" aria-label="Close"><svg class="ic"><use href="#x"/></svg></button></div>
+  <a class="dl" href="#paths">Banking for you<svg class="ic"><use href="#arrow"/></svg></a>
+  <a class="dl" href="#grow">Savings growth<svg class="ic"><use href="#arrow"/></svg></a>
+  <a class="dl" href="#cards">Debit cards<svg class="ic"><use href="#arrow"/></svg></a>
+  <a class="dl" href="#steps">Home Finance<svg class="ic"><use href="#arrow"/></svg></a>
+  <a class="dl" href="#call">Request a call back<svg class="ic"><use href="#arrow"/></svg></a>
+  <a href="#" class="btn b-gold">Open an account<svg class="ic"><use href="#arrow"/></svg></a>
+  <a href="#" class="btn b-glass">Login to Internet Banking</a>
+</div>
+
+<main>
+<!-- Hero -->
+<section class="hero" id="hero">
+  <img class="hero-bg" src="https://images.unsplash.com/photo-1608020932658-d0e19a69580b?w=2400&q=80&auto=format&fit=crop" alt="" fetchpriority="high">
+  <div class="wrap hero-grid">
+    <div class="hero-c">
+      <span class="kick rise">Dubai Islamic Bank Pakistan</span>
+      <h1 class="rise d1">Islamic banking for <span class="it">every stage of life.</span></h1>
+      <p class="sub rise d2">Current &amp; savings accounts, debit cards, home and auto finance — 100% Shariah-compliant, opened in minutes.</p>
+      <div class="ctas rise d3"><a href="#" class="btn b-gold">Open an account<svg class="ic"><use href="#arrow"/></svg></a><a href="#steps" class="btn b-glass">Apply for financing</a></div>
+      <div class="h-trust rise d3"><span><svg class="ic"><use href="#shield"/></svg>Shariah Board certified</span><span><svg class="ic"><use href="#bank"/></svg>Regulated by SBP</span><span><svg class="ic"><use href="#lock"/></svg>DPC protected</span></div>
+    </div>
+    <form class="ib rise d2" onsubmit="return false" aria-label="Internet Banking login">
+      <div class="ib-h"><b><svg class="ic"><use href="#lock"/></svg>Internet Banking</b><span class="sec-b"><i></i>Secure</span></div>
+      <div class="ib-tabs" id="ibTabs"><button type="button" class="on">Personal</button><button type="button">Business</button></div>
+      <label class="ib-f"><svg class="ic"><use href="#user"/></svg><input placeholder="Username or Customer ID" aria-label="Username or Customer ID" autocomplete="off"></label>
+      <button class="btn b-gold ib-go" type="submit">Continue to login<svg class="ic"><use href="#arrow"/></svg></button>
+      <div class="ib-l"><a href="#">Register now</a><a href="#">Forgot username?</a></div>
+      <div class="ib-app"><span><b>Bank on the go</b>Get the DIB Mobile App</span><a href="#" aria-label="Google Play">Play</a><a href="#" aria-label="App Store">iOS</a></div>
+      <p class="ib-w"><svg class="ic"><use href="#shield"/></svg>DIB will never ask for your password or OTP.</p>
+    </form>
+  </div>
+  <nav class="hero-bar" aria-label="Products">
+    <div class="wrap">
+      <a href="#" class="hb"><i><svg class="ic"><use href="#user"/></svg></i><span><b>Accounts</b><small>Current &amp; savings</small></span></a>
+      <a href="#cards" class="hb"><i><svg class="ic"><use href="#card"/></svg></i><span><b>Debit Cards</b><small>PayPak · Visa</small></span></a>
+      <a href="#steps" class="hb"><i><svg class="ic"><use href="#home"/></svg></i><span><b>Home Finance</b><small>Up to 20 years</small></span></a>
+      <a href="#" class="hb"><i><svg class="ic"><use href="#growth"/></svg></i><span><b>Auto Finance</b><small>New &amp; used cars</small></span></a>
+      <a href="#" class="hb"><i><svg class="ic"><use href="#globe"/></svg></i><span><b>Roshan Digital</b><small>For overseas</small></span></a>
+      <a href="#help" class="hb"><i><svg class="ic"><use href="#pin"/></svg></i><span><b>Branches</b><small>&amp; ATMs nearby</small></span></a>
+    </div>
+  </nav>
+</section>
+
+<!-- Paths -->
+<section class="sec paths" id="paths">
+  <div class="wrap">
+    <div class="top rv">
+      <div><span class="kick">Choose your path</span><h2 class="h2">Banking crafted <span class="it">around you.</span></h2></div>
+      <p class="lead" style="margin:0;max-width:430px">Four ways to bank with DIB — each with its own team, products and privileges. Hover a card to see what's included.</p>
+    </div>
+    <div class="path-grid rv">
+      <a href="#" class="path"><img src="https://images.unsplash.com/photo-1764642716231-b52fe5a4f6b4?w=800&q=80&auto=format&fit=crop" alt="A woman smiling at her phone" loading="lazy"><span class="no">01</span><span class="tg">Personal</span><h3>Everyday Banking</h3><p>Accounts, cards and savings for daily life.</p><ul><div><li><svg class="ic"><use href="#check"/></svg>Digital account in 5 minutes</li><li><svg class="ic"><use href="#check"/></svg>Monthly halal profit</li><li><svg class="ic"><use href="#check"/></svg>Free debit card</li></div></ul><span class="go">Explore accounts<i><svg class="ic"><use href="#arrow"/></svg></i></span></a>
+      <a href="#priority" class="path" id="priority"><img src="https://images.unsplash.com/photo-1766763845459-08a5a630da65?w=800&q=80&auto=format&fit=crop" alt="A professional in a tailored suit" loading="lazy"><span class="no">02</span><span class="tg">Exclusive</span><h3>Priority Banking</h3><p>A dedicated relationship manager.</p><ul><div><li><svg class="ic"><use href="#check"/></svg>Preferential profit rates</li><li><svg class="ic"><use href="#check"/></svg>Visa Platinum &amp; lounges</li><li><svg class="ic"><use href="#check"/></svg>Priority service lanes</li></div></ul><span class="go">Discover Priority<i><svg class="ic"><use href="#arrow"/></svg></i></span></a>
+      <a href="#" class="path"><img src="https://images.unsplash.com/photo-1758518730384-be3d205838e8?w=800&q=80&auto=format&fit=crop" alt="Business partners shaking hands" loading="lazy"><span class="no">03</span><span class="tg">Business</span><h3>SME &amp; Corporate</h3><p>Capital and cash management, the Islamic way.</p><ul><div><li><svg class="ic"><use href="#check"/></svg>Murabaha working capital</li><li><svg class="ic"><use href="#check"/></svg>Trade &amp; import finance</li><li><svg class="ic"><use href="#check"/></svg>Payroll &amp; bulk payments</li></div></ul><span class="go">Grow your business<i><svg class="ic"><use href="#arrow"/></svg></i></span></a>
+      <a href="#" class="path"><img src="https://images.unsplash.com/photo-1687992176093-6417a93fa3d0?w=800&q=80&auto=format&fit=crop" alt="A couple walking through an airport" loading="lazy"><span class="no">04</span><span class="tg">Overseas</span><h3>Roshan Digital</h3><p>Bank in Pakistan from anywhere.</p><ul><div><li><svg class="ic"><use href="#check"/></svg>Open 100% online</li><li><svg class="ic"><use href="#check"/></svg>PKR &amp; foreign currency</li><li><svg class="ic"><use href="#check"/></svg>Instant home remittances</li></div></ul><span class="go">Bank from abroad<i><svg class="ic"><use href="#arrow"/></svg></i></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- Growth -->
+<section class="sec grow" id="grow">
+  <div class="wrap">
+    <div class="top rv">
+      <div><span class="kick">Halal savings</span><h2 class="h2">Watch your savings <span class="it">grow.</span></h2></div>
+      <p class="lead" style="margin:0;max-width:430px">See how regular saving with Mudarabah profit can build towards your goals. Adjust the sliders to plan yours.</p>
+    </div>
+    <div class="g-box rv">
+      <div class="g-ctl">
+        <h3>Plan your goal</h3>
+        <p>Pick a goal or set your own numbers.</p>
+        <div class="gf"><div class="goals" id="goals"><button class="on" data-m="25000" data-y="10">Hajj</button><button data-m="40000" data-y="15">Education</button><button data-m="60000" data-y="12">Home deposit</button><button data-m="15000" data-y="20">Retirement</button></div></div>
+        <div class="gf"><label for="gM">Monthly saving <b id="gMo">Rs 25,000</b></label><input type="range" id="gM" min="5000" max="200000" step="5000" value="25000"><div class="rs"><span>Rs 5K</span><span>Rs 200K</span></div></div>
+        <div class="gf"><label for="gY">Time period <b id="gYo">10 years</b></label><input type="range" id="gY" min="1" max="25" value="10"><div class="rs"><span>1 year</span><span>25 years</span></div></div>
+        <div class="gf" style="margin-bottom:0"><label for="gR">Expected profit <b id="gRo">9.0%</b></label><input type="range" id="gR" min="6" max="12" step=".25" value="9"><div class="rs"><span>6%</span><span>12%</span></div></div>
+      </div>
+      <div class="g-out">
+        <div class="g-sum">
+          <div><small>Your savings could reach</small><b id="gT">—</b></div>
+          <div><small>You contribute</small><b id="gC">—</b></div>
+          <div class="pf"><small>Halal profit earned</small><b id="gP">—</b></div>
+        </div>
+        <div class="chart" id="chart">
+          <svg viewBox="0 0 700 300" preserveAspectRatio="none" id="gsvg">
+            <defs>
+              <linearGradient id="ga" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#c99b48" stop-opacity=".45"/><stop offset="1" stop-color="#c99b48" stop-opacity="0"/></linearGradient>
+              <linearGradient id="gb" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0f3d2e" stop-opacity=".35"/><stop offset="1" stop-color="#0f3d2e" stop-opacity=".05"/></linearGradient>
+            </defs>
+            <g class="grid" id="gGrid"></g>
+            <path id="aT" fill="url(#ga)"/><path id="lT" fill="none" stroke="#b48a3c" stroke-width="2.5"/>
+            <path id="aC" fill="url(#gb)"/><path id="lC" fill="none" stroke="#0f3d2e" stroke-width="2" stroke-dasharray="5 5"/>
+            <line id="hx" y1="0" y2="300" stroke="#0f3d2e" stroke-opacity=".25" style="display:none"/>
+            <circle id="hd1" r="6" fill="#fff" stroke="#b48a3c" stroke-width="2.5" style="display:none"/>
+          </svg>
+          <div class="tipbox" id="tip"></div>
+        </div>
+        <div class="legend"><span><i style="background:#c99b48"></i>Savings with profit</span><span><i style="background:#0f3d2e"></i>Your contributions</span></div>
+        <p class="g-note">Illustration only. Mudarabah profit is not guaranteed and depends on the bank's actual earnings; past rates don't predict future returns.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cards -->
+<section class="sec cards dk" id="cards">
+  <div class="wrap">
+    <div class="top rv">
+      <div><span class="kick">Debit cards</span><h2 class="h2">Carry something <span class="it">exceptional.</span></h2></div>
+      <p class="lead" style="margin:0;max-width:420px">Every card is contactless, Shariah-compliant and fully controllable from the app. Tap a card to see its benefits.</p>
+    </div>
+    <div class="flip-grid rv">
+      <div class="flip" tabindex="0" role="button" aria-label="PayPak Classic — show benefits">
+        <div class="flip-in">
+          <div class="face"><div class="mc c1"><div class="r1">DIB<small>CLASSIC</small></div><div class="ch"></div><div class="no">5304 •••• •••• 2290</div><span class="nt">PayPak</span></div><h3>PayPak Classic</h3><p class="sub2">Smart everyday spending across Pakistan.</p><span class="hint">Tap to see benefits<svg class="ic"><use href="#flip"/></svg></span></div>
+          <div class="face back"><h3>PayPak Classic</h3><ul><li><span>Annual fee</span><b>Rs 1,000</b></li><li><span>Daily ATM limit</span><b>Rs 50,000</b></li><li><span>Use</span><b>Pakistan</b></li><li><span>Contactless</span><b>Yes</b></li></ul><a href="#" class="btn b-glass" onclick="event.stopPropagation()">Apply now<svg class="ic"><use href="#arrow"/></svg></a></div>
+        </div>
+      </div>
+      <div class="flip" tabindex="0" role="button" aria-label="UnionPay Gold — show benefits">
+        <div class="flip-in">
+          <div class="face"><div class="mc c2"><div class="r1">DIB<small>GOLD</small></div><div class="ch"></div><div class="no">6250 •••• •••• 4821</div><span class="nt">UnionPay</span></div><h3>UnionPay Gold</h3><p class="sub2">Higher limits, accepted worldwide.</p><span class="hint">Tap to see benefits<svg class="ic"><use href="#flip"/></svg></span></div>
+          <div class="face back"><h3>UnionPay Gold</h3><ul><li><span>Annual fee</span><b>Rs 2,500</b></li><li><span>Daily ATM limit</span><b>Rs 100,000</b></li><li><span>Use</span><b>Worldwide</b></li><li><span>Partner discounts</span><b>Dining &amp; retail</b></li></ul><a href="#" class="btn b-gold" onclick="event.stopPropagation()">Apply now<svg class="ic"><use href="#arrow"/></svg></a></div>
+        </div>
+      </div>
+      <div class="flip" tabindex="0" role="button" aria-label="Visa Platinum — show benefits">
+        <div class="flip-in">
+          <div class="face"><div class="mc c3"><div class="r1">DIB<small>PLATINUM</small></div><div class="ch"></div><div class="no">4319 •••• •••• 7713</div><span class="nt">VISA</span></div><h3>Visa Platinum</h3><p class="sub2">Premium travel privileges and the highest limits.</p><span class="hint">Tap to see benefits<svg class="ic"><use href="#flip"/></svg></span></div>
+          <div class="face back"><h3>Visa Platinum</h3><ul><li><span>Annual fee</span><b>Rs 6,000</b></li><li><span>Daily ATM limit</span><b>Rs 250,000</b></li><li><span>Airport lounges</span><b>Selected lounges</b></li><li><span>Concierge</span><b>24/7</b></li></ul><a href="#" class="btn b-glass" onclick="event.stopPropagation()">Apply now<svg class="ic"><use href="#arrow"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Steps -->
+<section class="sec steps" id="steps">
+  <div class="wrap st-wrap">
+    <div class="st-pic rv"><img src="https://images.unsplash.com/photo-1748063578185-3d68121b11ff?w=1000&q=80&auto=format&fit=crop" alt="A modern home at dusk" loading="lazy"><div class="st-badge"><b>20</b><span>years — the longest tenure available for Home Finance</span></div></div>
+    <div class="rv">
+      <span class="kick">Home Finance</span>
+      <h2 class="h2">Your home, in <span class="it">four steps.</span></h2>
+      <p class="lead">Diminishing Musharakah: you and the bank co-own your home, and you buy the bank's share month by month — riba-free.</p>
+      <div class="tl" id="tl">
+        <span class="fill"></span>
+        <div class="ts"><span class="dot">1</span><h4>Check your eligibility</h4><p>Answer a few questions online and get an indicative amount instantly.</p><span class="meta"><svg class="ic"><use href="#clock"/></svg>2 minutes</span></div>
+        <div class="ts"><span class="dot">2</span><h4>Submit your documents</h4><p>CNIC, income proof and property papers — upload or bring them to a branch.</p><span class="meta"><svg class="ic"><use href="#clock"/></svg>1 day</span></div>
+        <div class="ts"><span class="dot">3</span><h4>Valuation &amp; approval</h4><p>We value the property and confirm your financing and rental schedule.</p><span class="meta"><svg class="ic"><use href="#clock"/></svg>Within 10 working days</span></div>
+        <div class="ts"><span class="dot">4</span><h4>Move in</h4><p>Sign the Musharakah agreement, receive the keys and start owning more every month.</p><span class="meta"><svg class="ic"><use href="#home"/></svg>Welcome home</span></div>
+      </div>
+      <div class="st-cta"><a href="#call" class="btn b-em">Speak to a home advisor<svg class="ic"><use href="#arrow"/></svg></a><a href="#" class="btn b-line">Check eligibility</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust -->
+<section class="sec trust dk">
+  <div class="wrap tr-grid">
+    <div class="rv">
+      <span class="kick">Why DIB</span>
+      <h2 class="h2">Built on trust, <span class="it">for generations.</span></h2>
+      <ul class="tr-pts">
+        <li><i><svg class="ic"><use href="#shield"/></svg></i><span><b>Independent Shariah Board</b>Every product reviewed, approved and audited.</span></li>
+        <li><i><svg class="ic"><use href="#globe"/></svg></i><span><b>Global heritage</b>Part of Dubai Islamic Bank — a pioneer of Islamic finance.</span></li>
+        <li><i><svg class="ic"><use href="#lock"/></svg></i><span><b>Bank-grade security</b>Biometric login, device binding and 24/7 fraud monitoring.</span></li>
+      </ul>
+    </div>
+    <div class="tr-stats rv">
+      <div><b>1975</b><span>Year DIB Group pioneered Islamic banking</span></div>
+      <div><b>22%</b><span>Women in our Pakistan workforce</span></div>
+      <div><b>24/7</b><span>Helpline, app and WhatsApp support</span></div>
+      <div><b>100%</b><span>Shariah-compliant products</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Help band -->
+<section class="sec helpb" id="help">
+  <div class="wrap">
+    <div class="top rv">
+      <div><span class="kick">Help &amp; services</span><h2 class="h2">We're here, <span class="it">whenever you need us.</span></h2></div>
+    </div>
+    <div class="hp-grid rv">
+      <div class="hp big">
+        <i><svg class="ic"><use href="#pin"/></svg></i>
+        <h3>Find a branch or ATM</h3>
+        <p>Branches and ATMs across Pakistan, including Saturday banking.</p>
+        <form class="hp-s" onsubmit="event.preventDefault();window.open('https://www.google.com/maps/search/'+encodeURIComponent('Dubai Islamic Bank '+(this.q.value||'Pakistan')),'_blank','noopener')">
+          <select name="q" aria-label="City"><option value="">Select your city</option><option>Karachi</option><option>Lahore</option><option>Islamabad</option><option>Rawalpindi</option><option>Faisalabad</option><option>Multan</option><option>Peshawar</option><option>Quetta</option></select>
+          <button class="btn b-gold" type="submit">Search<svg class="ic"><use href="#arrow"/></svg></button>
+        </form>
+      </div>
+      <a href="tel:111786342" class="hp red"><i><svg class="ic"><use href="#lock"/></svg></i><h3>Lost card or fraud?</h3><p>Block your card instantly in the app or call us 24/7.</p><span class="lnk">Block my card<svg class="ic"><use href="#arrow"/></svg></span></a>
+      <a href="tel:111786342" class="hp"><i><svg class="ic"><use href="#phone"/></svg></i><h3>111-786-342</h3><p>24/7 helpline for all your banking queries.</p><span class="lnk">Call now<svg class="ic"><use href="#arrow"/></svg></span></a>
+      <a href="#" class="hp"><i><svg class="ic"><use href="#chat"/></svg></i><h3>WhatsApp Banking</h3><p>Balance, statements and help — in a chat.</p><span class="lnk">Start chat<svg class="ic"><use href="#arrow"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- Callback -->
+<section class="sec call" id="call">
+  <div class="wrap">
+    <div class="cb rv">
+      <div class="cb-pic">
+        <img src="https://images.unsplash.com/photo-1772625717793-7ccdd11812e0?w=1000&q=80&auto=format&fit=crop" alt="A DIB advisor smiling" loading="lazy">
+        <h3>Prefer to talk? <span class="it">We'll call you.</span></h3>
+        <p>An advisor will call at a time that suits you — no queues, no pressure.</p>
+        <div class="ch2"><a href="tel:111786342"><svg class="ic"><use href="#phone"/></svg>111-786-342</a><a href="#"><svg class="ic"><use href="#chat"/></svg>WhatsApp</a></div>
+      </div>
+      <div class="cb-form">
+        <div id="cbForm">
+          <h3>Request a call back</h3>
+          <p>Tell us what you're interested in and when to call.</p>
+          <div class="two">
+            <div class="f2"><label for="cbName">Full name</label><div class="fld" id="cbNameF"><input id="cbName" autocomplete="name" placeholder="Your name"></div></div>
+            <div class="f2"><label for="cbMob">Mobile number</label><div class="fld" id="cbMobF"><input id="cbMob" inputmode="tel" autocomplete="tel" placeholder="03XX XXXXXXX"></div></div>
+          </div>
+          <div class="f2"><label for="cbProd">I'm interested in</label><div class="fld"><select id="cbProd"><option>Opening an account</option><option>Priority Banking</option><option>Home Finance</option><option>Auto Finance</option><option>Business banking</option><option>Roshan Digital Account</option></select></div></div>
+          <div class="f2"><label>Best time to call</label><div class="times" id="times"><button class="on" data-t="Morning">Morning<small>9 – 12</small></button><button data-t="Afternoon">Afternoon<small>12 – 3</small></button><button data-t="Evening">Evening<small>3 – 6</small></button></div></div>
+          <label class="consent"><input type="checkbox" id="cbOk">I agree to be contacted by Dubai Islamic Bank about my request.</label>
+          <div class="emsg" id="cbErr"></div>
+          <button class="btn b-em" id="cbGo">Request my call<svg class="ic"><use href="#arrow"/></svg></button>
+          <p class="demo">Design prototype — no details are sent anywhere.</p>
+        </div>
+        <div class="cb-done" id="cbDone">
+          <div class="ok"><svg class="ic"><use href="#check"/></svg></div>
+          <h3>Thank you, <span id="cbN"></span></h3>
+          <p id="cbSum"></p>
+          <span class="ref" id="cbRef"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="ft-cta">
+      <h3>Begin your journey <span class="it">with DIB.</span></h3>
+      <div class="acts"><a href="#" class="btn b-gold">Open an account<svg class="ic"><use href="#arrow"/></svg></a><a href="#call" class="btn b-glass">Request a call back</a></div>
+    </div>
+    <div class="ft">
+      <div class="ab">
+        <a href="#" class="brand has-logo" aria-label="Dubai Islamic Bank Pakistan"><img class="dib-logo" src="assets/dib-logo-light.png" alt="Dubai Islamic Bank" width="243" height="87"></a>
+        <p>For product queries or complaints, fill out our contact form or call our 24/7 helpline.</p>
+        <a href="tel:111786342" class="hot"><i><svg class="ic"><use href="#phone"/></svg></i>111-786-342</a>
+      </div>
+      <div><h5>Quick links</h5><ul><li><a href="#">Accounts</a></li><li><a href="#cards">Cards</a></li><li><a href="#steps">Financing Services</a></li><li><a href="#">Corporate &amp; SME</a></li><li><a href="#">Wealth</a></li></ul></div>
+      <div><h5>Banking</h5><ul><li><a href="#">Personal Banking</a></li><li><a href="#">Digital Banking</a></li><li><a href="#priority">Priority Banking</a></li><li><a href="#">Corporate Banking</a></li><li><a href="#">SME Banking Services</a></li><li><a href="#">Consumer Financing</a></li><li><a href="#">Branchless Banking</a></li><li><a href="#">Musawi Account</a></li></ul></div>
+      <div><h5>Shariah &amp; support</h5><ul><li><a href="#">Shariah Board</a></li><li><a href="#">Ask Shariah (FAQs)</a></li><li><a href="#">FATWA</a></li><li><a href="#">Unclaimed Deposits</a></li><li><a href="#">Saturday Branches</a></li></ul></div>
+      <div><h5>Help &amp; legal</h5><ul><li><a href="#">Terms &amp; Conditions</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Schedule of Charges</a></li><li><a href="#">Same Day Clearing Branches</a></li><li><a href="#">Sitemap</a></li></ul></div>
+    </div>
+    <div class="ft-b">
+      <span>© 2026 Dubai Islamic Bank Pakistan Limited · Regulated by the State Bank of Pakistan · Deposits protected under the DPC scheme</span>
+      <div class="soc">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-2.8 0-4 1.7-4 4.3V10H7v4h3v8h4v-8h3l1-4h-4V8.5c0-.3.2-.5.5-.5z"/></svg></a>
+        <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M17.8 3h3.1l-6.8 7.8 8 10.2h-6.3l-4.9-6.4L5.3 21H2.2l7.3-8.3L1.8 3h6.4l4.4 5.9zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4 9h4v12H4zM6 3a2 2 0 110 4 2 2 0 010-4zm4 6h3.8v1.7c.6-1 1.9-2 3.9-2 4 0 4.3 2.6 4.3 6V21h-4v-5.6c0-1.5 0-3.3-2-3.3s-2.2 1.5-2.2 3.2V21H10z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22 8.2a3 3 0 00-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 002 8.2 31 31 0 001.6 12 31 31 0 002 15.8a3 3 0 002.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 002.1-2.1c.4-1.2.4-3.8.4-3.8s0-2.6-.4-3.8zM10 15V9l5.2 3z"/></svg></a>
+      </div>
+    </div>
+    <div class="wm" aria-hidden="true">Dubai Islamic</div>
+  </div>
+</footer>
+
+<a href="#" class="wa" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.3-.4.3-.4.8-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg></a>
+
+<script>
+(() => {
+  const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const fmt = n => Math.round(n).toLocaleString('en-PK');
+  const big = n => n >= 1e7 ? 'Rs ' + (n / 1e7).toFixed(2).replace(/\.?0+$/, '') + ' Cr' : n >= 1e5 ? 'Rs ' + (n / 1e5).toFixed(1).replace(/\.0$/, '') + ' Lac' : 'Rs ' + fmt(n);
+  const setP = r => r.style.setProperty('--p', ((r.value - r.min) / (r.max - r.min) * 100) + '%');
+
+  // header
+  const hd = $('#hd');
+  const onS = () => hd.classList.toggle('solid', scrollY > 40);
+  addEventListener('scroll', onS, { passive: true }); onS();
+  const lgw = $('#lgw'), lgB = $('#lgB');
+  lgB.onclick = e => { e.stopPropagation(); lgB.setAttribute('aria-expanded', lgw.classList.toggle('open')); };
+  document.addEventListener('click', e => { if (!lgw.contains(e.target)) { lgw.classList.remove('open'); lgB.setAttribute('aria-expanded', false); } });
+  const drw = $('#drw');
+  $('#burger').onclick = () => { drw.classList.add('open'); drw.setAttribute('aria-hidden', 'false'); };
+  const closeD = () => { drw.classList.remove('open'); drw.setAttribute('aria-hidden', 'true'); };
+  $('#drwX').onclick = closeD; $$('a', drw).forEach(a => a.addEventListener('click', closeD));
+
+  // reveal
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('shown'); io.unobserve(e.target); } }), { threshold: .12 });
+  $$('.rv').forEach(el => io.observe(el));
+  const tlio = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('go'); tlio.unobserve(e.target); } }), { threshold: .3 });
+  tlio.observe($('#tl'));
+
+  // ---------- Growth chart ----------
+  const gM = $('#gM'), gY = $('#gY'), gR = $('#gR'), W = 700, H = 300, PAD = 24;
+  let pts = [];
+  function series() {
+    const m = +gM.value, y = +gY.value, r = +gR.value / 1200, out = [];
+    let bal = 0;
+    for (let k = 0; k <= y * 12; k++) { if (k) bal = (bal + m) * (1 + r); if (k % 12 === 0 || k === y * 12) out.push({ yr: k / 12, bal, con: m * k }); }
+    return out;
+  }
+  function draw() {
+    [gM, gY, gR].forEach(setP);
+    $('#gMo').textContent = 'Rs ' + fmt(+gM.value); $('#gYo').textContent = gY.value + (gY.value == 1 ? ' year' : ' years'); $('#gRo').textContent = (+gR.value).toFixed(2).replace(/0$/, '') + '%';
+    const s = series(), last = s[s.length - 1], max = last.bal * 1.08;
+    const X = i => PAD + i / (s.length - 1) * (W - PAD * 2), Y = v => H - 28 - v / max * (H - 60);
+    pts = s.map((p, i) => ({ ...p, x: X(i), yb: Y(p.bal), yc: Y(p.con) }));
+    const line = k => pts.map((p, i) => (i ? 'L' : 'M') + p.x.toFixed(1) + ' ' + p[k].toFixed(1)).join(' ');
+    const area = k => line(k) + ` L${pts[pts.length - 1].x} ${H - 28} L${pts[0].x} ${H - 28} Z`;
+    $('#lT').setAttribute('d', line('yb')); $('#aT').setAttribute('d', area('yb'));
+    $('#lC').setAttribute('d', line('yc')); $('#aC').setAttribute('d', area('yc'));
+    let g = '';
+    for (let i = 0; i <= 4; i++) { const v = max * i / 4, y = Y(v); g += `<line x1="${PAD}" x2="${W - PAD}" y1="${y}" y2="${y}"/>`; }
+    const step = Math.max(1, Math.ceil((s.length - 1) / 6));
+    pts.forEach((p, i) => { if (i % step === 0 || i === pts.length - 1) g += `<text class="lbl" x="${p.x}" y="${H - 8}" text-anchor="middle">${p.yr ? 'Yr ' + Math.round(p.yr) : 'Now'}</text>`; });
+    $('#gGrid').innerHTML = g;
+    $('#gT').textContent = big(last.bal); $('#gC').textContent = big(last.con); $('#gP').textContent = big(last.bal - last.con);
+  }
+  [gM, gY, gR].forEach(i => i.addEventListener('input', () => { $$('#goals button').forEach(b => b.classList.remove('on')); draw(); }));
+  $$('#goals button').forEach(b => b.onclick = () => { $$('#goals button').forEach(x => x.classList.toggle('on', x === b)); gM.value = b.dataset.m; gY.value = b.dataset.y; draw(); });
+  draw();
+  const chart = $('#chart'), svg = $('#gsvg'), tip = $('#tip'), hx = $('#hx'), hd1 = $('#hd1');
+  chart.addEventListener('mousemove', e => {
+    const r = svg.getBoundingClientRect(), x = (e.clientX - r.left) / r.width * W;
+    const p = pts.reduce((a, b) => Math.abs(b.x - x) < Math.abs(a.x - x) ? b : a);
+    hx.setAttribute('x1', p.x); hx.setAttribute('x2', p.x); hx.style.display = '';
+    hd1.setAttribute('cx', p.x); hd1.setAttribute('cy', p.yb); hd1.style.display = '';
+    tip.style.left = (p.x / W * r.width) + 'px'; tip.style.top = (p.yb / H * r.height) + 'px'; tip.style.opacity = 1;
+    tip.innerHTML = `${p.yr ? 'After ' + Math.round(p.yr) + (Math.round(p.yr) === 1 ? ' year' : ' years') : 'Today'}<b>${big(p.bal)}</b>Contributed ${big(p.con)}`;
+  });
+  chart.addEventListener('mouseleave', () => { tip.style.opacity = 0; hx.style.display = 'none'; hd1.style.display = 'none'; });
+
+  $$('#ibTabs button').forEach(b => b.onclick = () => $$('#ibTabs button').forEach(x => x.classList.toggle('on', x === b)));
+
+  // ---------- Flip cards ----------
+  $$('.flip').forEach(f => {
+    const t = () => f.classList.toggle('on');
+    f.addEventListener('click', t);
+    f.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); t(); } });
+  });
+
+  // ---------- Callback ----------
+  $$('#times button').forEach(b => b.onclick = () => $$('#times button').forEach(x => x.classList.toggle('on', x === b)));
+  $('#cbGo').onclick = () => {
+    const n = $('#cbName').value.trim(), m = $('#cbMob').value.replace(/[\s-]/g, ''), okN = n.length >= 3, okM = /^(03\d{9}|\+923\d{9})$/.test(m), okC = $('#cbOk').checked, err = [];
+    $('#cbNameF').classList.toggle('err', !okN); $('#cbMobF').classList.toggle('err', !okM);
+    if (!okN) err.push('enter your name'); if (!okM) err.push('enter a valid mobile (03XX XXXXXXX)'); if (!okC) err.push('tick the consent box');
+    $('#cbErr').textContent = err.length ? 'Please ' + err.join(', ') + '.' : '';
+    if (err.length) return;
+    $('#cbN').textContent = n.split(' ')[0];
+    $('#cbSum').textContent = `An advisor will call you about ${$('#cbProd').value.toLowerCase()} in the ${$('#times .on').dataset.t.toLowerCase()} of the next working day.`;
+    $('#cbRef').textContent = 'Ref: DIB-' + Math.random().toString(36).slice(2, 8).toUpperCase();
+    $('#cbForm').style.display = 'none'; $('#cbDone').style.display = 'block';
+  };
+})();
+</script>
+</body>
+</html>
